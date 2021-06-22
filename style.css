@@ -84,7 +84,7 @@ nav ul {
 
 .hero {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url(./img/landing-page.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,47 +221,51 @@ nav ul {
 }
 .name-form,
 .email-form {
-    padding: 3rem;
-    text-align: center;
+  padding: 3rem;
+  text-align: center;
 }
 .form-wrapper label {
-    margin: 0rem 3rem;
+  margin: 0rem 3rem;
 }
 .form-wrapper button {
-    width: 100%;
-    padding: 2rem;
-    margin-top: 8rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 .form-wrapper input {
-    padding: 1rem 3rem;
+  padding: 1rem 3rem;
 }
 
-footer{
-    color: white;
-    background: rgb(19, 28, 39);
+footer {
+  color: white;
+  background: rgb(19, 28, 39);
 }
-.footer-wrapper{
-    display: flex;
-    padding: 2rem;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    min-height: 10vh;
-    flex-wrap: wrap;
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
 }
-footer h5{
-    flex: 1 1 40rem;
+footer h5 {
+  flex: 1 1 40rem;
 }
-footer ul{
-    display: flex;
-    list-style: none;
-    flex: 1 1 40rem;
-    justify-content: space-between;
-    align-items: center;
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
+button:focus {
+  background: #2c3f57;
+  outline: solid;
+}
 
 /* Media Queries */
 
@@ -291,13 +295,13 @@ footer ul{
     -webkit-text-fill-color: white;
     padding: 1rem;
   }
-  .form-wrapper{
-      width: 100%;
+  .form-wrapper {
+    width: 100%;
   }
-  footer{
-      text-align: center;
+  footer {
+    text-align: center;
   }
-  footer h5{
-      padding-bottom: 3rem;
+  footer h5 {
+    padding-bottom: 3rem;
   }
 }
